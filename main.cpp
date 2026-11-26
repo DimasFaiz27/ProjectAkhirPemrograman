@@ -15,3 +15,8 @@ const int JUMLAH_PIPA = 3;
 int pipeX[JUMLAH_PIPA];
 int pipeTop[JUMLAH_PIPA];
 bool sudahLewat[JUMLAH_PIPA];
+
+// Ukuran pipa
+int gapSize = 7;    // Tinggi celah lubang
+int pipeWidth = 5;  // Lebar pipa   
+int jarakPipa = 28; // Jarak antar pipa 
